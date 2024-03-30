@@ -14,7 +14,7 @@ Implementations were subidived in two groups:
 Here-in Bash scripts for compiling and running each version of the algorithm can be found.  
 
 ### data/ ###
-Here-in some dataset has been provided.   
+Here-in some datasets have been provided.   
 
 ### pyutils/ ###
 Here-in Python scripts for assessing algorithm's accuracy have been provided. Binary Classification accuracy is compared with SkLearns's SVC Classifier.   
@@ -23,7 +23,7 @@ Here-in Python scripts for assessing algorithm's accuracy have been provided. Bi
 Here-in C and Assembly source code can be found. Note that Assembly code is located under src/algorithm/sse and src/algorithm/avx.  
 
 ## Provided Implementations ##
-For both 32 bit and 64 bit, the following implementations havd been provided:
+For both 32 bit and 64 bit, the following implementations have been provided:
 * C standard **SoftSvmPoly\[32|64\].c**;
 * SIMD optimization **SoftSvmPolySimd\[32|64\].c**;
 * SIMD + Cache-Blocking **SoftSvmPolyBlockWise\[32|64\].c**;
